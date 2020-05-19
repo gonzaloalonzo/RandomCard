@@ -27,4 +27,3 @@ let e = Math.floor(Math.random()*pintas.length);
         document.querySelector(".card-pic2").innerHTML = cardsig;
     }
 })();
-
