@@ -1,0 +1,27 @@
+body{
+    background-color: green;
+    
+}
+.card-body{
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+.card-center{
+    font-size: 190px;
+}
+.card-pic1{
+    align-self: flex-start;
+    font-size: 90px;
+    border-bottom: 30px;;
+}
+.card-pic2{
+    align-self: flex-end;
+    border-top: 30px;
+    font-size: 90px;
+}
