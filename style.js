@@ -13,10 +13,18 @@ let e = Math.floor(Math.random()*pintas.length);
 
  
  (function cargar(){
- 
- document.querySelector(".card-pic1").innerHTML = cardsig;
- document.querySelector(".card-center").innerHTML = cardcenter;
- document.querySelector(".card-pic2").innerHTML = cardsig;
- 
+
+    if (cardsig == "♥"){
+        document.querySelector(".card-pic1").style.color="red";
+        document.querySelector(".card-pic1").innerHTML = cardsig;
+        document.querySelector(".card-center").innerHTML = cardcenter;
+        document.querySelector(".card-pic2").style.color="red";
+        document.querySelector(".card-pic2").innerHTML = cardsig;
+    }else{
+
+        document.querySelector(".card-pic1").innerHTML = cardsig;
+        document.querySelector(".card-center").innerHTML = cardcenter;
+        document.querySelector(".card-pic2").innerHTML = cardsig;
+    }
 })();
 
